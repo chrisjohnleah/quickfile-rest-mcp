@@ -6,7 +6,7 @@ Open-source MCP server for the new QuickFile REST API (beta testers wanted)
 
 ## Suggested category
 
-Extensibility
+Integrations
 
 ## Body
 
