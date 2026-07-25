@@ -57,3 +57,9 @@ changes you’d like reflected, I’m happy to update it.
 Thanks!
 
 Chris
+
+## Submission status
+
+Submitted to the **Extensibility** category as `Christopher_Leah` on
+25 July 2026. QuickFile confirmed that the post is pending moderator approval;
+a public topic URL will only exist after approval.
