@@ -7,7 +7,7 @@
 - QuickFile contract: Swagger 2.0, v2
 - Contract source: `https://api-beta.quickfile.co.uk/api-docs/v2`
 - Bundled contract SHA-256:
-  `5598241f3259530492e4c80ed66b5ed0900a901a07ad9a7c4174d16c9d89d22a`
+  `5598241f325985792596220275d2515dc599bfbcfd8d7047f8abdf8ba7448c98`
 
 ## What was verified
 
@@ -27,6 +27,7 @@
 | Static quality | Strict TypeScript and ESLint |
 | Dependency audit | `npm audit` reported 0 known vulnerabilities |
 | Built-package smoke test | Spawned compiled stdio server; discovered 80 tools, 2 resources, and 1 prompt |
+| Public install smoke test | Installed from `github:chrisjohnleah/quickfile-rest-mcp` with `npx`; negotiated MCP `2025-06-18` and discovered 80 tools, 2 resources, and 1 prompt |
 | Compatibility | CI matrix for Node.js 20, 22, and 24 |
 
 Automated test coverage at release-candidate QA:
@@ -39,6 +40,7 @@ Automated test coverage at release-candidate QA:
 ## Live checks possible without an account
 
 - The Swagger UI and JSON contract were reachable over HTTPS.
+- The live contract's canonical SHA-256 matched the bundled contract.
 - The contract identified `api-beta.quickfile.co.uk` as its host and bearer
   authentication as its security scheme.
 - `GET /account/me` without credentials returned HTTP 401 with QuickFile's
